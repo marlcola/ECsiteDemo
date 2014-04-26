@@ -1,0 +1,99 @@
+/* 
+    Document   : add_01
+    Created on : 2013/10/05, 16:51:24
+    Author     : mori
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    padding-top: 60px;
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*item thumbnail list*/
+dl.product {
+    border: solid 1px #000;
+}
+
+dl.product dt a img {
+    display: block;
+}
+
+dl.product dt a span {
+    display: block;
+}
+
+dl.product dd {
+    margin-left: 5px;
+}
+
+/*pagetop button*/
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+
+/*footer*/
+#footer {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#slide {
+    background: #555;
+    color: #fff;
+    width: 100%;
+}
+#slide-in {
+    padding: 20px;
+}
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*NavBar*/
+#navbar-collapse-1 a.btn {
+    width: 90px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#navbar-collapse-1 p.navbar-text {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*SideBar*/
+#sidebar .page-header h3 {
+    margin-left: 10px;
+}
+
+#input-category .btn-group label {
+    padding-left: 5px;
+    padding-right: 5px;
+}
